@@ -21,7 +21,7 @@ services:
     image: phpmyadmin/phpmyadmin:latest
     container_name: contenedor_php_myadmin
     environment:
-      PMA_HOST: db
+      PMA_HOST: contenedor_bbdd
       MYSQL_ROOT_PASSWORD: fernanda
     ports:
       - "8081:80"
