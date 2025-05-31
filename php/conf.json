@@ -1,5 +1,5 @@
 {
-    "host": "db",
+    "host": "contenedor_bbdd",
     "userName": "fernanda",
     "password": "fernanda",
     "db": "stadium"
