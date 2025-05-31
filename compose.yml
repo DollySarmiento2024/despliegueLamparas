@@ -3,10 +3,10 @@ services:
     image: dollysarmiento2024/bbdd:v1
     container_name: contenedor_bbdd
     environment:
-      MYSQL_ROOT_PASSWORD: test
+      MYSQL_ROOT_PASSWORD: fernanda
       MYSQL_DATABASE: stadium
-      MYSQL_USER: root
-      MYSQL_PASSWORD: test
+      MYSQL_USER: fernanda
+      MYSQL_PASSWORD: fernanda
     ports:
       - "3306:3306"
   php:
@@ -22,7 +22,7 @@ services:
     container_name: contenedor_php_myadmin
     environment:
       PMA_HOST: db
-      MYSQL_ROOT_PASSWORD: test
+      MYSQL_ROOT_PASSWORD: fernanda
     ports:
       - "8081:80"
     depends_on:
